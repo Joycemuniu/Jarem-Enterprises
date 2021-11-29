@@ -1,0 +1,47 @@
+body{
+    background-image: url('/images/image23.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 1100px;
+
+}
+nav{
+    color: coral;
+    height: 50px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style: none;
+}
+h5{
+    color: coral;
+}
+li{
+    color: darkturquoise;
+}
+div[class="body"]{
+    color: lightslategrey;
+}
+#footer{
+    
+    width: auto;
+    height: 80px;
+    margin: 50px 0px 0px 0px;
+}
+#footer>h4{
+    text-align: center;
+    margin-top: 20px;
+    color:turquoise;
+}
+#footer>h4>a{
+    text-decoration: none;
+    text-align: center;
+
+} 
+i{
+    color: coral;
+}

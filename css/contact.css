@@ -1,0 +1,75 @@
+ .body{
+    background-image: url('/images/image23.jpg'); 
+    background-color: lightsteelblue;
+}
+
+/* navigation styling */
+header{
+    background-color:orchid ;
+    text-align: center;
+    position: fixed;
+    width: 100%;    
+}
+nav{
+    position: absolute;
+    text-align: left;
+    
+}
+li{
+    list-style: none;
+}
+
+
+form{
+    color: coral;
+   
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+input[type=text],input[type=email] {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0px;
+    margin-left: 10%;
+    border-radius: 5px;
+
+}
+
+input[type=submit]{
+    width: 100%;
+    background-color: lightseagreen;
+    color:limegreen ;
+    border: solid 1px lightseagreen;
+    border-radius: 5px;
+    padding: 10px;
+}
+@media screen and (max-width: 400px){
+}
+input[type=submit]:hover{
+    background-color: slateblue ;
+    cursor: pointer;
+    width: 80%;
+    margin-left: 10%;
+}
+#footer{
+    
+    width: auto;
+    height: 80px;
+    margin: 50px 0px 0px 0px;
+}
+#footer>h4{
+    text-align: center;
+    margin-top: 20px;
+    color:turquoise
+}
+#footer>h4>a{
+    text-decoration: none;
+    text-align: center;
+   
+
+} 
+
+i{
+    color: coral;
+}
